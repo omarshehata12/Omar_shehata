@@ -208,3 +208,16 @@ body{
 .container.active .toggle-right{
     transform: translateX(200%);
 }
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .left-section, .right-section {
+        width: 100%;
+    }
+    input, button {
+        width: 90%;
+        margin: 10px auto;
+    }
+}
